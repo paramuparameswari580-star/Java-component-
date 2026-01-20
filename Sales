@@ -1,0 +1,11 @@
+class SalesAdd {
+    public static void main(String[] args) {
+        int[] branch1 = {1000, 2000, 3000};
+        int[] branch2 = {1500, 2500, 3500};
+        int[] total = new int[3];
+        for(int i=0;i<3;i++)
+            total[i] = branch1[i] + branch2[i];
+        for(int i=0;i<3;i++)
+            System.out.println("Month " + (i+1) + ": " + total[i]);
+    }
+}
